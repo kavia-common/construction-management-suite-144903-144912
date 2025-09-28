@@ -1,0 +1,32 @@
+.canvas { background: var(--color-f8f9fa); }
+.row-divider { background: var(--color-ffffff); }
+.row-divider + .row-divider { border-top: none; }
+.icon { display: block; image-rendering: auto; }
+.typo-15 { font: 700 var(--fs-18)/var(--lh-28) var(--font-lato); color: var(--color-323f4b); }
+.typo-41 { font: 500 var(--fs-12)/var(--lh-18) var(--font-lato); color: var(--color-56bd66); }
+.typo-42 { font: 700 var(--fs-14)/var(--lh-20) var(--font-lato); color: var(--color-ffffff); }
+.typo-43 { font: 400 var(--fs-10)/var(--lh-12) var(--font-rubik); text-align: center; }
+.typo-44 { font: 700 var(--fs-18)/var(--lh-28) var(--font-lato); color: var(--color-ffffff); }
+.typo-45 { font: 400 var(--fs-12)/var(--lh-18) var(--font-lato); color: var(--color-ffffff); }
+.typo-46 { font: 400 var(--fs-12)/var(--lh-18) var(--font-lato); color: var(--color-56bd66); }
+.typo-47 { font: 500 var(--fs-16)/var(--lh-24) var(--font-lato); color: var(--color-323f4b); }
+.typo-48 { font: 400 var(--fs-12)/var(--lh-18) var(--font-lato); color: var(--color-9aa5b1); }
+.typo-49 { font: 700 var(--fs-12)/var(--lh-18) var(--font-lato); color: var(--color-56bd66); text-align: center; }
+button { cursor: pointer; -webkit-appearance: none; appearance: none; border: none; background: none; }
+.canvas { -webkit-user-select: none; user-select: none; }
+```
+
+````write file="construction-management-suite-144903-144912/simple_construction_workship_frontend/src/assets/take-this-jobs-907-315.css"
+.canvas { background: var(--color-f8f9fa); }
+.section-card { background: var(--color-ffffff); }
+.statusbar, .topbar, .section-card { z-index: 1; }
+#overlay { z-index: 90; }
+#modalApproval { z-index: 100; }
+button { cursor: pointer; }
+button:focus { outline: none; }
+.btn-primary:hover { filter: brightness(0.98); }
+.btn-white:hover { filter: brightness(0.98); }
+button { -webkit-appearance: none; appearance: none; border: none; background: none; }
+.btn-primary { background: var(--color-56bd66); }
+.btn-white { background: var(--color-ffffff); }
+.canvas { -webkit-user-select: none; user-select: none; }

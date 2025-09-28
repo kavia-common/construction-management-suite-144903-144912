@@ -1,0 +1,13 @@
+.canvas { background: var(--color-f8f9fa); }
+.statusbar, .topbar, .section-card { z-index: 1; }
+.section-card { background: var(--color-ffffff); }
+button { cursor: pointer; -webkit-appearance: none; appearance: none; border: none; background: none; }
+.btn-primary:hover, .btn-white:hover { filter: brightness(0.98); }
+.icon { display: block; }
+.badge-dark { background: var(--color-323f4b); border-radius: 12px; }
+.badge-blue { background: var(--color-2bb0ed); border-radius: 12px; }
+.pill { border: 1px solid var(--color-e4e7eb); border-radius: 100px; }
+.avatar { width: 32px; height: 32px; border-radius: 50%; background: var(--color-c4c4c4); border: 1px solid var(--color-ffffff); overflow: hidden; }
+.manager-img { width: 40px; height: 40px; border-radius: 100px; overflow: hidden; border: 1.5px solid var(--color-e4e7eb); }
+.home-indicator { width: 135px; height: 5px; border-radius: var(--radius-100); background: var(--color-323f4b); }
+.canvas { -webkit-user-select: none; user-select: none; }

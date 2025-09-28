@@ -1,0 +1,13 @@
+.canvas { background: var(--color-f8f9fa); }
+.section-card { background: var(--color-ffffff); }
+.statusbar, .topbar, .section-card { z-index: 1; }
+#overlay { z-index: 90; }
+#modalApproval { z-index: 100; }
+button { cursor: pointer; }
+button:focus { outline: none; }
+.btn-primary:hover { filter: brightness(0.98); }
+.btn-white:hover { filter: brightness(0.98); }
+button { -webkit-appearance: none; appearance: none; border: none; background: none; }
+.btn-primary { background: var(--color-56bd66); }
+.btn-white { background: var(--color-ffffff); }
+.canvas { -webkit-user-select: none; user-select: none; }
